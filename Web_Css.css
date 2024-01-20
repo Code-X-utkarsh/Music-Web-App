@@ -1,0 +1,94 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.navbar-nav {
+    margin-left: auto; /* Move the navbar-nav to the right */
+}
+
+.nav-item {
+    margin-right: 20px; /* Adjust spacing between nav items */
+}
+
+.nav-link {
+    color: rgb(49, 182, 69);
+    font-weight: bold;
+}
+
+/* About Us section styles */
+.container {
+    max-width: 1200px;
+}
+
+h1 {
+    color: #343a40; /* Dark text color */
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+/* Team section styles */
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Increase size on hover */
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d; /* Gray text color */
+}
+
+/* Mission section styles */
+.text-center {
+    text-align: center !important;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .navbar-nav {
+        margin-left: 0;
+    }
+
+    .nav-item {
+        margin-right: 10px;
+    }
+}
